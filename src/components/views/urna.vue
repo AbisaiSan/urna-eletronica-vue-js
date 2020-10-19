@@ -1,14 +1,16 @@
 <template>
   <div class="urna">
-
+    <Tela/>
+    <Teclado/>
   </div>
 </template>
 
 <script>
 
-
+import Tela from './Tela'
+import Teclado from './Teclado'
 export default {
-  
+  components:{Tela,Teclado}
 }
 </script>
 
